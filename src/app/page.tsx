@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
-export default function Home() {
-  return (
+const Home = () => {
+    return (
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
@@ -93,3 +93,5 @@ export default function Home() {
     </main>
   )
 }
+
+export default Home
